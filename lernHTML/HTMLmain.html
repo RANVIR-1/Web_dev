@@ -1,0 +1,177 @@
+<!DOCTYPE html><!--helps to know this is an html doctype-->
+<html lang="en">
+<head><!--it will not show in the website eg:title www.mywebsite.com-->
+    <meta charset="UTF-8"><!--it will be seen in human readable from-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--it will set the size depending on the device of the user-->
+    <meta name="description" content="my website"><!--to add description of the website-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta tags is used in search engine-->
+    <title>my website</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body><!--main content is seen in the main page using body-->
+
+<h1>this is heading</h1>
+<h2>this is heading</h2>
+<h3>this is heading</h3>
+<h4>this is heading</h4>
+<h5>this is heading</h5>
+<h6>this is heading</h6>
+<!--different size of heading-->
+
+<hr/><!--make a horizontal line below-->
+
+<p>
+Lorem ipsum dolor sit amet consectetur,<br/> adipisicing elit. Neque voluptate optio incidunt voluptates vel vitae consequatur alias facilis. Animi, placeat. Odio iusto vero maiores excepturi tempore est delectus nesciunt exercitationem?
+</p><!--adds a paragraph-->
+<!--br tags break into a new line-->
+
+<pre>
+    hii my name is ranvir 
+    it will print as it is
+</pre>
+
+<hr>
+
+<p>
+    <mark><strong><b>Lorem ipsum dolor sit amet consectetur,</b></strong></mark><i>adipisicing elit.</i><em>Placeat suscipit corrupti a eius quae?</em><small>Sequi nihil</small>, ut saepe aliquam corporis hic illum natus sunt ipsa possimus beatae sint magnam cumque.
+</p>
+<p>
+<del>hii</del>
+<br>
+<ins>insert tag</ins>
+<br>
+    x<sup>2</sup>
+    <br>
+    Co<sub>2</sub>
+</p>
+<!--these are html formatting tags-->
+<!--b tag bold the text-->
+<!--strong tag will highlight the text-->
+<!--i tag is for italics converts to italics-->
+<!--em is for emphasize the word-->
+<!--small tag to make some words small-->
+<!--mark tag to highlight the content in colour-->
+<!--del tag to delete some content-->
+<!--ins tag to insert-->
+<!--sup tag for super-script-->
+<!--sub tag for sub-script-->
+
+<!--html quotations-->
+<p>this content belong to some other sites</p>
+<blockquote cite="https://en.wikipedia.org/wiki/HTML">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</blockquote>
+<hr>
+<!--list-->
+
+<!--ordered list-->
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+<hr>
+
+<!--un-ordered list-->
+<ul>
+   <li>html</li>
+   <li>css</li>
+   <li>JavaScript</li>
+</ul>
+<hr>
+<!--description list-->
+<dl>
+   <dd>html</dd>
+   <dt>HyperText Markup language</dt>
+</dl>
+<hr>
+<!--link tag-->
+<a href="https://en.wikipedia.org/wiki/Hinduism">wikipedia</a><!--open in the same tab-->
+<a target="_blank" href="https://en.wikipedia.org/wiki/Hinduism">wikipedia in new tab</a><!--open in another tab-->
+<hr>
+
+<!--image tag in html-->
+<img src="https://w7.pngwing.com/pngs/715/489/png-transparent-jagannath-temple-puri-lord-krishna-miscellaneous-logo-smiley.png" alt="lord" width="200" height="200">
+<hr>
+
+<!--block-line,in-line element-->
+<!--block-line :h1-h6,div,p--><!--new line-->
+<!--inline :span,img,a-->
+
+<!--tables-->
+<table>
+    <tr>
+        <th>FirstName</th>
+        <th>RollNo</th>
+        <th>Class</th>
+    </tr>
+    <tr>
+        <td>RANVIR</td>
+        <td>26</td>
+        <td>VIIIB</td>
+    </tr>
+    <tr>
+        <td>DOLLY</td>
+        <td>2</td>
+        <td>DS</td>
+    </tr>
+</table>
+<hr>
+<table>
+    <tr>
+        <th>country</th>
+        <th colspan="2">cities</th>
+    </tr>
+    <tr>
+      <td>INDIA</td>
+      <td>MUMBAI</td>
+      <td>DELHI</td>  
+    </tr>
+    <tr>
+        <td>GERMANY</td>
+        <td>DOGLAND-</td>
+        <td>BEERland</td>
+    </tr>
+</table>
+<hr>
+<!--forms in html-->
+<h2>REGISTRATION forms</h2>
+
+<form action="">
+    <label for="FirstName">name</label>
+    <input type="text" name="FirstName" placeholder="Enter your name">
+
+    <label for="lastname">lastname</label>
+    <input type="text" name="lastname" placeholder="Enter your last name"><br>
+     
+    <input type="radio" value="male" name="gender">
+    <label >MALE</label>
+
+    <input type="radio" value="female" name="gender">
+    <label >FEMALE</label><br>
+
+    <input type="checkbox" value="tick" name="checkbox1">
+    <label for="checkbox">DONE</label><br>
+
+    <label for="Age">Age group</label>
+    <select>
+        <option value="">select option </option>
+        <option value="school"> 10-18 </option>
+        <option value="college"> 19-24 </option>
+        <option value="working"> 24-50 </option>
+    </select>
+
+    <button type="submit">Submit</button>
+
+</form>
+<hr>
+<iframe src="https://www.wikipedia.org/" width="1500" height="360"></ifame>
+
+    <!--html sematics header,footer,nav,aside,section-->
+    
+</body>
+</html>
